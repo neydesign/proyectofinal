@@ -142,3 +142,49 @@ footer>ul{
   display: flex;
   justify-content: space-between;
 }
+
+/* CSS para dispositivos móviles */
+@media (max-width: 576px) {
+  .navbar-brand {
+    width: auto;
+    height: auto;
+    padding: 0;
+  }
+
+  .navbar-collapse {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav.navbar-nav {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .nav.navbar-nav>li>a {
+    padding: 10px 0;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+  }
+
+  .footer-brand {
+    background-image: url("../imagenes/naxa_logo.png");
+    background-position: center;
+    background-size: contain;
+    width: 278px;
+    height: 69.75px;
+    padding: 0;
+  }
+
+  footer>ul>li>a {
+    padding: 10px 0;
+  }
+
+  .footer-nav {
+    display: none;
+  }
+}

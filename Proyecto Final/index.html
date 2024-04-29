@@ -27,6 +27,10 @@
 <body>
   <div class="navbar navbar-light" role="navigation">
     <div class="container">
+      <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
       <div class="navbar-header">
 <!--         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
           <span class="sr-only">Hola</span>
@@ -35,14 +39,14 @@
           <span class="icon-bar"></span>
         </button> -->
       </div>
-      <div class="navbar-collapse">
-        <ul class="nav navbar-nav">
-          <li class=""><a href="#" class="navbar-custom">Servicios</a></li>
-          <li class=""><a href="#" class="navbar-custom">Sobre Nosotros</a></li>
-          <li><img class="navbar-brand" href="#"/></li>
-          <li><a href="#portafolio" class="navbar-custom">Portafolio</a></li>
+      <div class="navbar-collapse" id="navbarNav">
+        <ul class="nav navbar-nav ms-auto">
+          <li class="nav-item"><a href="#" class="navbar-custom nav-link">Servicios</a></li>
+          <li class="nav-item"><a href="#" class="navbar-custom nav-link">Sobre Nosotros</a></li>
+          <li class="nav-item"><img class="nav-item navbar-brand nav-link" href="#"/></li>
+          <li class="nav-item"><a href="#portafolio" class="navbar-custom nav-link">Portafolio</a></li>
           <!-- <li><a href="#comentarios" class="navbar-custom">Comentarios</a></li> -->
-          <li><a href="#contact" class="navbar-custom">Contacto</a></li>
+          <li class="nav-item"><a href="#contact" class="navbar-custom nav-link">Contacto</a></li>
         </ul>
       </div><!--/.nav-collapse -->
     </div>
@@ -93,9 +97,10 @@
 
   <!-- Footer section -->
   <footer class="footer">
-
+    <div>
+      <img class="footer-brand" href="#"/>
+    </div>
     <ul class="footer-nav">
-      <li><img class="footer-brand" href="#"/></li>
       <li class=""><a href="#" class="">Servicios</a></li>
       <li class=""><a href="#" class="">Sobre Nosotros</a></li>
       <li><img class="" href="#"/></li>
