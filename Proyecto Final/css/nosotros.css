@@ -69,9 +69,9 @@
 }
 
 p{
-    font-size: 2vmin;
+    font-size: 1.2vmax;
 }
 
-h1 .lato-bold{
-    font-size: 200vmin; 
+h1.lato-bold {
+    font-size: 2.8vmax;
 }
