@@ -75,3 +75,7 @@ p{
 h1.lato-bold {
     font-size: 2.8vmax;
 }
+
+.col div{
+    border-color: #cc6666 !important;
+   }
