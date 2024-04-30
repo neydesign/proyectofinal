@@ -60,7 +60,8 @@
   
 
 .bg-white{
-   background-color: aqua;
+   background-color: #FDFEFD;
+   color: #22333B;
 }
 
 .bg-blue{
@@ -70,6 +71,9 @@
 
 p{
     font-size: 1.2vmax;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 h1.lato-bold {
@@ -80,3 +84,7 @@ h1.lato-bold {
     border-color: #547B8C !important;
     color: #547B8C;
    }
+
+   h2.lato-bold {
+    font-size: 2.5vmax;
+}
