@@ -10,7 +10,7 @@ body {
   font-weight: 25;
 }
 
-.navbar-brand {
+li>img.navbar-brand {
   background-image: url("../imagenes/naxa_logo.png");
   background-position: center;
   background-size: contain;
@@ -43,9 +43,10 @@ body {
 }
 
 
-ul.nav.navbar-nav{
+ul.nav.navbar-nav {
   display: -webkit-inline-box;
 }
+
 .navbar-custom {
   /*background-color: #22333B;*/
   /*color: white;*/
@@ -108,7 +109,7 @@ ul.nav.navbar-nav{
   justify-content: space-between;
 }
 
-.footer-brand{
+.footer-brand {
   background-image: url("../imagenes/naxa_logo.png");
   background-position: center;
   background-size: contain;
@@ -120,11 +121,11 @@ ul.nav.navbar-nav{
   height: 69.75px;
 }
 
-footer>div>p{
+footer>div>p {
   color: #22333B;
 }
 
-footer>ul>li>a{
+footer>ul>li>a {
   text-decoration: none;
   display: -webkit-inline-box;
   color: #22333B;
@@ -133,7 +134,7 @@ footer>ul>li>a{
   padding-left: 65px;
 }
 
-footer>ul{
+footer>ul {
   list-style-type: none;
   margin: 0 auto;
   /*display: inline-block;
@@ -148,6 +149,10 @@ footer>ul{
 
 /* CSS para dispositivos móviles */
 @media (max-width: 576px) {
+  .navbar-toggler {
+    float: right;
+  }
+
   .navbar-brand {
     width: auto;
     height: auto;
@@ -157,6 +162,11 @@ footer>ul{
   .navbar-collapse {
     flex-direction: column;
     align-items: center;
+    /* Ajusta la altura para que ocupe todo el espacio disponible */
+    /*height: calc(100vh - 50px);*/
+    /* Resta la altura del navbar */
+    overflow-y: auto;
+    /* Agrega scroll si es necesario */
   }
 
   .nav.navbar-nav {
@@ -166,7 +176,13 @@ footer>ul{
 
   .nav.navbar-nav>li>a {
     padding: 10px 0;
+    text-align: center; /* Centra el texto */
   }
+
+  ul.nav.navbar-nav {
+    display: table;
+  }
+  
 
   .footer {
     flex-direction: column;
