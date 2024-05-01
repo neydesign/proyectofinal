@@ -1,0 +1,240 @@
+/*TIPOGRAFÍA*/
+
+.lato-thin {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .lato-light {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #22333B;
+  }
+  
+  .lato-black {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .lato-thin-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .lato-light-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .lato-regular-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .lato-bold-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .lato-black-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+/*MENÚ*/
+
+  .navbar {
+    /*background-color: white;*/
+    color: #22333B;
+    font-family: Lato;
+    font-size: medium;
+    font-weight: 25;
+  }
+  
+  li>img.navbar-brand {
+    background-image: url("../imagenes/naxa_logo.png");
+    background-position: center;
+    background-size: contain;
+    color: #22333B;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    width: 278px;
+    height: 69.75px;
+  }
+  
+  .navbar-collapse {
+    text-align: center;
+  }
+  
+  .nav.navbar-nav {
+    margin: 0 auto;
+    /*display: inline-block;
+    float: none;*/
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .nav.navbar-nav>li>a {
+    color: #22333B;
+    padding-right: 65px;
+    padding-left: 65px;
+    text-decoration: none;
+  }
+  
+  
+  ul.nav.navbar-nav {
+    display: -webkit-inline-box;
+  }
+
+
+/*CONTENERDOR PESTAÑA*/
+
+
+/*IMG PRINCIPAL*/
+
+
+.fondo {
+    background-image: url(Img/img2.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+/*TITULO PRINCIPAL*/
+p{
+    font-size: 1.2vmax;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #22333B;
+    
+}
+
+h1.lato-bold {
+    font-size: 2.8vmax;
+    color: #22333B;
+}
+
+
+
+
+/*ESTLO PÁRRAFO*/
+
+p{
+    font-size: 1.2vmax;
+
+}
+
+/*DESCRIP SERVICIOS*/
+
+
+/*COTIZAR*/
+
+.cotizar {
+    background: #547B8C;
+    font-family: Lato;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 66px;
+  }
+  
+
+
+
+/*FOOTER*/
+
+  .footer {
+    padding: 20px 0;
+    background-color: #78B0A0;
+    color: #22333B;
+    margin: 0 auto;
+    /*display: inline-block;
+    float: none;*/
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-brand {
+    background-image: url("../imagenes/naxa_logo.png");
+    background-position: center;
+    background-size: contain;
+    color: #22333B;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    width: 278px;
+    height: 69.75px;
+  }
+  
+  footer>div>p {
+    color: #22333B;
+  }
+  
+  footer>ul>li>a {
+    text-decoration: none;
+    display: -webkit-inline-box;
+    color: #22333B;
+  
+    padding-right: 65px;
+    padding-left: 65px;
+  }
+  
+  footer>ul {
+    list-style-type: none;
+    margin: 0 auto;
+    /*display: inline-block;
+    float: none;*/
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+
+.carouselExampleSlidesOnly {
+
+    height: 50vh;
+    min-height: 200px;
+    background: no-repeat scroll center scroll;
+    -webkit-background-size: cover;
+    background-position: cover;
+}
+
+
+.carouselExampleSlidesOnly::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.7;
+}
+
+
