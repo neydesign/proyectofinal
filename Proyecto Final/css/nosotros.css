@@ -82,6 +82,23 @@ h1.lato-bold {
 
 h3.card-title{
   font-size: 3.8vmin;
+  color: #22333B;
+}
+
+h4.card-title{
+  font-size: 3.8vmin;
+}
+
+p.card-text{
+  color: #22333B;
+}
+
+p.text-card{
+  font-size: 1.3vmax;
+  color: #43816F;
+  font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: italic;
 }
 
 .col div{
@@ -129,4 +146,50 @@ h3.card-title{
 .card-img-top {
   object-fit: cover;
   padding: 1vmin;
+}
+
+.card-img, .card-img-top {
+  border-top-left-radius: var(--bs-card-inner-border-radius);
+  border-top-right-radius: var(--bs-card-inner-border-radius);
+}
+
+a {
+  color: #43816F !important;
+  text-decoration: none !important;
+  padding-right: 1.5vmin !important;
+  padding-left: 1.5vmin !important;
+}
+
+a:hover {
+  color: #547B8C !important;
+  text-decoration: none !important;
+}
+
+a::after {
+  color: #22333B !important;
+  text-decoration: none !important;
+}
+
+
+i{
+  font-size: 5vmin;
+}
+
+.col div {
+  border-color: #547B8C !important;
+  color: #547B8C;
+}
+
+.card {
+  position: relative;
+  display: inline !important;
+  flex-direction: column;
+  min-width: 0;
+  height: var(--bs-card-height);
+  color: var(--bs-body-color);
+  word-wrap: break-word;
+  background-color: var(--bs-card-bg);
+  background-clip: border-box;
+  border: 0px !important;
+  border-radius: var(--bs-card-border-radius);
 }
