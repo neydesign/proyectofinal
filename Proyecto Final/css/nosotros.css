@@ -114,12 +114,7 @@ p.text-card{
   perspective: 1000px;
 }
 
-.card{
-  height: 200px;
-}
-
 .flip-card-inner {
-  position: relative;
   text-align: center;
   width: 100%;
   height: 100%;
@@ -133,10 +128,8 @@ p.text-card{
 
 .flip-card-front,
 .flip-card-back {
-  max-height: 35vmax;
   position: absolute;
   backface-visibility: hidden;
-        
 }
 
 .flip-card-back {
@@ -180,16 +173,3 @@ i{
   color: #547B8C;
 }
 
-.card {
-  position: relative;
-  display: inline !important;
-  flex-direction: column;
-  min-width: 0;
-  height: var(--bs-card-height);
-  color: var(--bs-body-color);
-  word-wrap: break-word;
-  background-color: var(--bs-card-bg);
-  background-clip: border-box;
-  border: 0px !important;
-  border-radius: var(--bs-card-border-radius);
-}
