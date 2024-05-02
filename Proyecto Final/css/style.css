@@ -63,7 +63,13 @@
 
 /*NAV BAR*/
 body {
-  padding-top: 50px;
+  /*padding-top: 50px;*/
+}
+
+hr {
+  font-weight: bold;
+  width: 70%;
+  height: 2px;
 }
 
 .navbar {
@@ -75,12 +81,12 @@ body {
 }
 
 li>img.navbar-brand {
-  background-image: url("../imagenes/naxa_logo.png");
+  /*background-image: url("../imagenes/naxa_logo.png");*/
   background-position: center;
   background-size: contain;
-  color: #22333B;
-  font-weight: bold;
-  font-size: 24px;
+  /*color: #22333B;*/
+  /*font-weight: bold;*/
+  /*font-size: 24px;*/
   text-align: center;
   width: 278px;
   height: 69.75px;
@@ -181,7 +187,7 @@ ul.nav.navbar-nav {
 }
 
 .footer-brand {
-  background-image: url("../imagenes/naxa_logo.png");
+  /*background-image: url("../imagenes/naxa_logo.png");*/
   background-position: center;
   background-size: contain;
   color: #22333B;
