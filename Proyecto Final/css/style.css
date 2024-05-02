@@ -1,13 +1,77 @@
+/*TIPOGRAFÍA*/
+
+.lato-thin {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.lato-light {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #22333B;
+}
+
+.lato-black {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.lato-thin-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.lato-light-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.lato-regular-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lato-bold-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.lato-black-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+/*NAV BAR*/
 body {
   padding-top: 50px;
 }
 
 .navbar {
   /*background-color: white;*/
-  color: #22333B;
+  /* color: #22333B;
   font-family: Lato;
   font-size: medium;
-  font-weight: 25;
+  font-weight: 25; */
 }
 
 li>img.navbar-brand {
@@ -20,6 +84,7 @@ li>img.navbar-brand {
   text-align: center;
   width: 278px;
   height: 69.75px;
+  margin: 0px;
 }
 
 .navbar-collapse {
@@ -37,8 +102,8 @@ li>img.navbar-brand {
 
 .nav.navbar-nav>li>a {
   color: #22333B;
-  padding-right: 65px;
-  padding-left: 65px;
+  padding-right: 10vh;
+  padding-left: 10vh;
   text-decoration: none;
 }
 
@@ -56,6 +121,8 @@ ul.nav.navbar-nav {
   /* background-color: #122223; */
 }
 
+/*FOTO HOME*/
+
 .foto-home {
   background-image: url('../imagenes/home.png');
   background-size: cover;
@@ -68,6 +135,7 @@ ul.nav.navbar-nav {
   justify-content: center;
 }
 
+/*PORQUE NAXA*/
 .porque-naxa {
   padding: 40px 15px;
   text-align: center;
@@ -87,16 +155,19 @@ ul.nav.navbar-nav {
   text-align: center;
 }
 
+/*PORTAFOLIO*/
 .nuestro-portafolio {
   padding: 50px 0;
   background-color: #f9f9f9;
 }
 
+/*COMENTARIOS*/
 .comentarios {
   padding: 50px 0;
   background-color: #f5f5f5;
 }
 
+/*FOOTER*/
 .footer {
   padding: 20px 0;
   background-color: #78B0A0;
