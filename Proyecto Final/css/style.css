@@ -209,8 +209,8 @@ footer>ul>li>a {
   display: -webkit-inline-box;
   color: #22333B;
 
-  padding-right: 65px;
-  padding-left: 65px;
+/*   padding-right: 65px;
+  padding-left: 65px; */
 }
 
 footer>ul {
@@ -258,11 +258,13 @@ footer>ul {
     /* Resta la altura del navbar */
     overflow-y: auto;
     /* Agrega scroll si es necesario */
+    display: inline-flex;
   }
 
   .nav.navbar-nav {
     flex-direction: column;
     justify-content: center;
+    border-left: solid #212529;
   }
 
   .nav.navbar-nav>li>a {
@@ -271,7 +273,7 @@ footer>ul {
   }
 
   ul.nav.navbar-nav {
-    display: table;
+    display: grid;
   }
   
 
