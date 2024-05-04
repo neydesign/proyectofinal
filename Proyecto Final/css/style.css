@@ -292,6 +292,10 @@ footer>ul {
     padding: 0;
   }
 
+  .footer-social {
+    padding: 8px;
+  }
+
   footer>ul>li>a {
     /*padding: 10px 0;*/
     /*padding-right: 10vh;*/
