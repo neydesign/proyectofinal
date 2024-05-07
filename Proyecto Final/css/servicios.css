@@ -176,7 +176,7 @@ ul.nav.navbar-nav {
   }
 
   100% {
-    background-image: url('../imagenes/img2.jpg');
+    background-image: url('../imagenes/img7.jpg');
     background-size: cover;
 
   }
@@ -222,6 +222,18 @@ p2 {
  ;
 }
 
+/*BARRA*/
+
+.barra {
+  padding: 15px 10px;
+  width: 50%;
+  margin-left: 625px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 20px 0px 0px 20px  ;
+  background: #FFB202;
+}
+
 
 /*COTIZAR*/
 
@@ -233,9 +245,9 @@ p2 {
 
 .btn1 {
   display: block;
-  width: 150px;
+  width: 215px;
   background-color: #FFB202;
-  border-radius: 10px;
+  border-radius: 15px;
   padding: 15px 30px;
   margin: 30px 130px;
   color: #22333B;
@@ -244,7 +256,7 @@ p2 {
 
 .btn1:hover {
   background-color: transparent;
-  border: 2.5px solid #FFB202;
+  border: 2px solid #FFB202;
   color: #FFB202;
   text-decoration: none;
 }
@@ -253,6 +265,7 @@ p2 {
 
   font-family: "Lato", sans-serif;
   font-weight: 900;
+  font-size: 20px;
   font-style: normal;
   color: #22333B;
 
