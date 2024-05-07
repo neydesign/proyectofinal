@@ -1,240 +1,405 @@
 /*TIPOGRAFÍA*/
 
 .lato-thin {
-    font-family: "Lato", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-  }
-  
-  .lato-light {
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-  
-  .lato-regular {
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .lato-bold {
-    font-family: "Lato", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    color: #22333B;
-  }
-  
-  .lato-black {
-    font-family: "Lato", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-  }
-  
-  .lato-thin-italic {
-    font-family: "Lato", sans-serif;
-    font-weight: 100;
-    font-style: italic;
-  }
-  
-  .lato-light-italic {
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
-    font-style: italic;
-  }
-  
-  .lato-regular-italic {
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  .lato-bold-italic {
-    font-family: "Lato", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-  }
-  
-  .lato-black-italic {
-    font-family: "Lato", sans-serif;
-    font-weight: 900;
-    font-style: italic;
-  }
-  
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.lato-light {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #22333B;
+}
+
+
+
+.lato-black {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.lato-thin-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.lato-light-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.lato-regular-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lato-bold-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.lato-black-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
 /*MENÚ*/
 
-  .navbar {
-    /*background-color: white;*/
-    color: #22333B;
-    font-family: Lato;
-    font-size: medium;
-    font-weight: 25;
-  }
-  
-  li>img.navbar-brand {
-    background-image: url("../imagenes/naxa_logo.png");
-    background-position: center;
-    background-size: contain;
-    color: #22333B;
-    font-weight: bold;
-    font-size: 24px;
-    text-align: center;
-    width: 278px;
-    height: 69.75px;
-  }
-  
-  .navbar-collapse {
-    text-align: center;
-  }
-  
-  .nav.navbar-nav {
-    margin: 0 auto;
-    /*display: inline-block;
-    float: none;*/
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .nav.navbar-nav>li>a {
-    color: #22333B;
-    padding-right: 65px;
-    padding-left: 65px;
-    text-decoration: none;
-  }
-  
-  
-  ul.nav.navbar-nav {
-    display: -webkit-inline-box;
-  }
+/*NAV BAR*/
+body {
+  /*padding-top: 50px;*/
+}
+
+hr {
+  font-weight: bold;
+  width: 70%;
+  height: 2px;
+  /*margin: auto;*/
+}
+
+.navbar {
+  /*background-color: white;*/
+  /* color: #22333B;
+  font-family: Lato;
+  font-size: medium;
+  font-weight: 25; */
+}
+
+li>img.navbar-brand {
+  /*background-image: url("../imagenes/naxa_logo.png");*/
+  background-position: center;
+  background-size: contain;
+  /*color: #22333B;*/
+  /*font-weight: bold;*/
+  /*font-size: 24px;*/
+  text-align: center;
+  width: 278px;
+  height: 69.75px;
+  margin: 0px;
+}
+
+.navbar-collapse {
+  text-align: center;
+}
+
+.nav.navbar-nav {
+  margin: 0 auto;
+  /*display: inline-block;
+  float: none;*/
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav.navbar-nav>li>a {
+  color: #22333B;
+  padding-right: 10vh;
+  padding-left: 10vh;
+  text-decoration: none;
+}
+
+ul.nav.navbar-nav {
+  display: -webkit-inline-box;
+}
+
+.navbar-custom {
+  /*background-color: #22333B;*/
+  /*color: white;*/
+}
+
+.navbar-custom:hover {
+  /* background-color: #122223; */
+}
 
 
 /*CONTENERDOR PESTAÑA*/
 
-
 /*IMG PRINCIPAL*/
 
+.img {
+  background-image: url('../imagenes/img1.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 500px;
+  /* Ajusta la altura según sea necesario */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: animate 20s infinite;
+}
 
-.fondo {
-    background-image: url(Img/img2.jpg);
-    background-position: center;
+@keyframes animate {
+  20% {
+    background-image: url('../imagenes/img1.jpg');
     background-size: cover;
+
+  }
+
+
+  40% {
+    background-image: url('../imagenes/img3.jpg');
+    background-size: cover;
+
+  }
+
+  60% {
+    background-image: url('../imagenes/img4.jpg');
+    background-size: cover;
+
+  }
+
+  80% {
+    background-image: url('../imagenes/img5.jpg');
+    background-size: cover;
+
+  }
+
+  100% {
+    background-image: url('../imagenes/img2.jpg');
+    background-size: cover;
+
+  }
 
 }
 
+/*linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.0)),*/
 
 /*TITULO PRINCIPAL*/
-p{
-    font-size: 1.2vmax;
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #22333B;
-    
+p {
+  font-size: 1.2vmax;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #22333B;
+
 }
 
 h1.lato-bold {
-    font-size: 2.8vmax;
-    color: #22333B;
+  font-size: 2.8vmax;
+  color: #22333B;
 }
-
-
 
 
 /*ESTLO PÁRRAFO*/
 
-p{
-    font-size: 1.2vmax;
+p {
+  font-size: 1.2vmax;
+
+}
+
+
+p2 {
+  font-size: 1.2vmax;
+  font-style: bold;
 
 }
 
 /*DESCRIP SERVICIOS*/
 
+.col-6 {
+  padding: 20px;
+ ;
+}
+
 
 /*COTIZAR*/
 
-.cotizar {
-    background: #547B8C;
-    font-family: Lato;
-    font-size: 55px;
-    font-weight: 700;
-    line-height: 66px;
-  }
-  
+.cuadro {
+  padding: 5px 10px;
+  width: 100%;
+  background: #547B8C;
+}
 
+.btn1 {
+  display: block;
+  width: 150px;
+  background-color: #FFB202;
+  border-radius: 10px;
+  padding: 15px 30px;
+  margin: 30px 130px;
+  color: #22333B;
+  text-decoration: none;
+}
 
+.btn1:hover {
+  background-color: transparent;
+  border: 2.5px solid #FFB202;
+  color: #FFB202;
+  text-decoration: none;
+}
+
+.btn1 {
+
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  color: #22333B;
+
+}
+
+.ahora {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal
+}
+
+.ahora:hover {
+  background-color: transparent;
+  color: #FFB202;
+  text-decoration: none;
+}
 
 /*FOOTER*/
+.footer {
+  padding: 20px 0;
+  background-color: #78B0A0;
+  color: #22333B;
+  margin: 0 auto;
+  /*display: inline-block;
+  float: none;*/
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-brand {
+  /*background-image: url("../imagenes/naxa_logo.png");*/
+  background-position: center;
+  background-size: contain;
+  color: #22333B;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  width: 278px;
+  height: 69.75px;
+}
+
+footer>div>p {
+  color: #22333B;
+}
+
+footer>ul>li>a {
+  text-decoration: none;
+  display: -webkit-inline-box;
+  color: #22333B;
+
+  /*   padding-right: 65px;
+  padding-left: 65px; */
+}
+
+footer>ul {
+  list-style-type: none;
+  margin: 0 auto;
+  /*display: inline-block;
+  float: none;*/
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-div {
+  padding: 20px 0;
+  background-color: #78B0A0;
+  color: #22333B;
+  margin: 0 auto;
+  /*display: inline-block;
+  float: none;*/
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-social {
+  margin-left: 25vh;
+}
+
+
+/* CSS para dispositivos móviles */
+@media (max-width: 576px) {
+  .navbar-toggler {
+    float: right;
+  }
+
+  .navbar-brand {
+    width: auto;
+    height: auto;
+    padding: 0;
+  }
+
+  .navbar-collapse {
+    flex-direction: column;
+    align-items: center;
+    /* Ajusta la altura para que ocupe todo el espacio disponible */
+    /*height: calc(100vh - 50px);*/
+    /* Resta la altura del navbar */
+    overflow-y: auto;
+    /* Agrega scroll si es necesario */
+    display: inline-flex;
+  }
+
+  .nav.navbar-nav {
+    flex-direction: column;
+    justify-content: center;
+    border-left: solid #212529;
+  }
+
+  .nav.navbar-nav>li>a {
+    padding: 10px 0;
+    text-align: center;
+    /* Centra el texto */
+  }
+
+  ul.nav.navbar-nav {
+    display: grid;
+  }
+
 
   .footer {
+    flex-direction: column;
+    align-items: center;
     padding: 20px 0;
-    background-color: #78B0A0;
-    color: #22333B;
-    margin: 0 auto;
-    /*display: inline-block;
-    float: none;*/
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
   }
-  
+
   .footer-brand {
     background-image: url("../imagenes/naxa_logo.png");
     background-position: center;
     background-size: contain;
-    color: #22333B;
-    font-weight: bold;
-    font-size: 24px;
-    text-align: center;
     width: 278px;
     height: 69.75px;
+    padding: 0;
   }
-  
-  footer>div>p {
-    color: #22333B;
+
+  .footer-social {
+    margin-left: 0px;
   }
-  
+
   footer>ul>li>a {
-    text-decoration: none;
-    display: -webkit-inline-box;
-    color: #22333B;
-  
-    padding-right: 65px;
-    padding-left: 65px;
-  }
-  
-  footer>ul {
-    list-style-type: none;
-    margin: 0 auto;
-    /*display: inline-block;
-    float: none;*/
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+    /*padding: 10px 0;*/
+    /*padding-right: 10vh;*/
   }
 
-
-
-.carouselExampleSlidesOnly {
-
-    height: 50vh;
-    min-height: 200px;
-    background: no-repeat scroll center scroll;
-    -webkit-background-size: cover;
-    background-position: cover;
+  .footer-nav {
+    display: none;
+  }
 }
-
-
-.carouselExampleSlidesOnly::before{
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background: #000;
-    opacity: 0.7;
-}
-
-
