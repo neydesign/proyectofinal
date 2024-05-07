@@ -163,6 +163,10 @@ ul.nav.navbar-nav {
   text-align: center; */
 }
 
+.porque-naxa-detalles {
+  color: #547B8C !important;
+}
+
 /*PORTAFOLIO*/
 .nuestro-portafolio {
   padding: 50px 0;
@@ -235,7 +239,9 @@ footer>ul {
   justify-content: space-between;
 }
 
-/*Nosotros*/
+.footer-social {
+  margin-left: 25vh;
+}
 
 
 /* CSS para dispositivos móviles */
@@ -293,7 +299,7 @@ footer>ul {
   }
 
   .footer-social {
-    padding: 8px;
+    margin-left:0px;
   }
 
   footer>ul>li>a {
