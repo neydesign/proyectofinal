@@ -366,22 +366,15 @@ i{
 }     
 
 footer{
-  background-color: #111;
+  background-color: #96c5b7;
 }
 .footerContainer{
   width: 100%;
-  padding: 70px 30px 20px ;
+  padding-top: 2vmax;
 }
 .socialIcons{
   display: flex;
   justify-content: center;
-}
-.socialIcons a{
-  text-decoration: none;
-  padding:  10px;
-  background-color: white;
-  margin: 10px;
-  border-radius: 50%;
 }
 .socialIcons a i{
   font-size: 2em;
@@ -418,7 +411,7 @@ footer{
   opacity: 1;
 }
 .footerBottom{
-  background-color: #000;
+  background-color: #96c5b7;
   padding: 20px;
   text-align: center;
 }
