@@ -227,7 +227,7 @@ hr {
   opacity: .25;
 }
 
-a {
+a.icon {
   color: #43816F !important;
   text-decoration: none !important;
   padding-right: 1.5vmin !important;
@@ -264,9 +264,6 @@ a {
       width:100%;
       text-align: center;
       margin: 0px;
-  }
-  .socialIcons a{
-      
   }
 }
 
