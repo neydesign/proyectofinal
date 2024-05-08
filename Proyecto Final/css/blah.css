@@ -71,7 +71,7 @@ a.nav-link{
 
 /*nav*/
 
-p{
+p.p-0.m-0{
     font-size: 1.5vmax !important;
     font-family: "Lato", sans-serif !important;
     font-weight: 400 !important;
@@ -126,7 +126,7 @@ h5{
         font-style: normal !important;
       }
 
-      p{
+      p.p-0.m-0{
         font-size: 1.2vmax !important;
         font-family: "Lato", sans-serif !important;
         font-weight: 400 !important;
@@ -144,8 +144,17 @@ h5{
        }
 
        h2.lato-bold {
-        font-size: 1.8vmax !important;
+        font-size: 2vmax !important;
+        margin-bottom: 0.2rem;
     }
+
+    p.text{
+      font-size: 1.4vmax;
+      font-family: "Lato", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      margin-bottom: .1rem
+  }
   }
 
   .bg-white{
@@ -157,11 +166,12 @@ h5{
      background-color: #547B8C;
  }
  
- p{
-     font-size: 1.2vmax;
+ p.text{
+     font-size: 1.4vmax;
      font-family: "Lato", sans-serif;
      font-weight: 400;
      font-style: normal;
+     margin-bottom: .5rem
  }
  
  h1.lato-bold {
