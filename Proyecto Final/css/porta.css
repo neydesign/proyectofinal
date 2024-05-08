@@ -1,8 +1,6 @@
-.bg-light {
-  background-color: tomato!important;
-}
+/*nav*/
 .navbar {
-  background-color: rgba(255, 255, 255, 0.9)
+  background-color: rgba(255, 255, 255, 0.95)
  }
 
  .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
@@ -27,7 +25,7 @@ a.nav-link{
   left: 0;
   bottom: -1px; 
   width: 100%;
-  height: 0.2vmax;
+  height: 0.15vmax;
   background-color: #43816F;
 }
 
@@ -51,15 +49,6 @@ a.nav-link{
     background-color: #43816F;
   }
 }
-
-hr {
-  margin: 0.2vmin !important;
-  margin-bottom: 1vmax !important;
-  color: inherit;
-  border: 0;
-  border-top: var(--bs-border-width) solid;
-  opacity: .25;
-}
  
 .navbar .navbar-nav .nav-link {
   color: #22333B;
@@ -79,6 +68,8 @@ hr {
 .navbar-logo-centered .navbar-nav .nav-link{
   padding: .5em 1em;
 }
+
+/*nav*/
   
 
 .lato-thin {
@@ -186,3 +177,97 @@ img{
 @media (max-width: 576px) {
 
 }
+
+/*footer*/
+
+footer{
+  background-color: #96c5b7;
+}
+.footerContainer{
+  width: 100%;
+  padding-top: 2vmax;
+}
+.socialIcons{
+  display: flex;
+  justify-content: center;
+}
+
+.socialIcons a i{
+  font-size: 2em;
+  color:#22333B;
+  opacity: 0,9;
+}
+/* Hover affect on social media icon */
+.socialIcons a:hover{
+  transition: 0.5s;
+}
+.socialIcons a:hover i{
+  color: white;
+  transition: 0.5s;
+}
+
+.footerNav ul{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+.footerNav ul li a{
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+hr {
+  margin: 0.1vmin !important;
+  margin-bottom: 1vmax !important;
+  color: #22333B !important;
+  border: 0;
+  opacity: .25;
+}
+
+a {
+  color: #43816F !important;
+  text-decoration: none !important;
+  padding-right: 1.5vmin !important;
+  padding-left: 1.5vmin !important;
+}
+
+.bg-trav{
+  background-color: #96c5b7;
+}
+
+.footerNav ul li a:hover{
+  opacity: 1;
+}
+.footerBottom{
+  background-color: #96c5b7;
+  padding: 1vmax;
+  text-align: center;
+}
+.footerBottom p{
+  color: #22333B;
+}
+.designer{
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0px 5px;
+}
+@media (max-width: 700px){
+  .footerNav ul{
+      flex-direction: column;
+  } 
+  .footerNav ul li{
+      width:100%;
+      text-align: center;
+      margin: 0px;
+  }
+  .socialIcons a{
+      
+  }
+}
+
+/*footer*/
