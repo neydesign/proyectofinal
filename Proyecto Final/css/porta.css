@@ -265,6 +265,12 @@ a.icon {
       text-align: center;
       margin: 0px;
   }
+
+  .socialIcons a i{
+    font-size: 1.2em;
+    color:#22333B;
+    opacity: 0,9;
+  }
 }
 
 /*footer*/

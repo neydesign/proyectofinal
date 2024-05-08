@@ -178,10 +178,31 @@ h5{
      font-size: 2.8vmax;
  }
  
- h3.card-title{
-   font-size: 3.8vmin;
-   color: #22333B;
- }
+ .h3, h3 {
+  font-size: 1.8vmax !important;
+  font-family: "Lato", sans-serif !important;
+  font-weight: 700 !important;
+  font-style: normal !important;
+  color: #547B8C !important;
+}
+
+.star-icon {
+  font-size: 2.5vmax;
+  color: #547B8C;
+}
+
+p.mb-2.ms-3.me-4{
+  font-size: 1.4vmax;
+     font-family: "Lato", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+     color: #547B8C;
+}
+
+.border {
+  --bs-border-width: 1px !important;
+  --bs-border-color: #547B8C !important;
+}
  
  h4.card-title{
    font-size: 3.8vmin;
@@ -240,6 +261,7 @@ footer{
   color:#22333B;
   opacity: 0,9;
 }
+
 /* Hover affect on social media icon */
 .socialIcons a:hover{
   transition: 0.5s;
@@ -307,6 +329,12 @@ a.icon {
       width:100%;
       text-align: center;
       margin: 0px;
+  }
+
+  .socialIcons a i{
+    font-size: 1.2em;
+    color:#22333B;
+    opacity: 0,9;
   }
 }
 
