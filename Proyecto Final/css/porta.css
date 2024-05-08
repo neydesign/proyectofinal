@@ -197,6 +197,7 @@ footer{
   color:#22333B;
   opacity: 0,9;
 }
+
 /* Hover affect on social media icon */
 .socialIcons a:hover{
   transition: 0.5s;
@@ -248,6 +249,7 @@ a.icon {
 }
 .footerBottom p{
   color: #22333B;
+  font-size: 1.8vmax;
 }
 .designer{
   opacity: 0.7;
