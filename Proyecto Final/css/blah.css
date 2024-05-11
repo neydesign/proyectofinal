@@ -273,6 +273,16 @@ a.pe-5:hover {
   color: #43816F !important; 
 }
 
+@media (max-width: 576px) {
+  a.pe-5 {
+    font-size: 0.9rem !important;
+    color: #22333B !important;
+    font-family: "Lato", sans-serif !important;
+      font-weight: 700 !important;
+      font-style: italic !important;
+    text-decoration: dashed;
+  }
+}
 
 
  /*footer*/
