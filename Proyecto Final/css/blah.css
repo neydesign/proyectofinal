@@ -115,12 +115,12 @@ h5{
     --bs-btn-bg: #FFB202 !important;
     --bs-btn-border-color: #FFB202 !important;
     --bs-btn-hover-color: #fff;
-    --bs-btn-hover-bg: #547B8C !important;
-    --bs-btn-hover-border-color: #547B8C !important;
+    --bs-btn-hover-bg: #43816F !important;
+    --bs-btn-hover-border-color: #43816F !important;
     --bs-btn-focus-shadow-rgb: 49, 132, 253;
     --bs-btn-active-color: #fff;
-    --bs-btn-active-bg: #43816F !important;
-    --bs-btn-active-border-color: #43816F !important;
+    --bs-btn-active-bg: #547B8C !important;
+    --bs-btn-active-border-color: #547B8C !important;
     --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
     }
 
@@ -215,14 +215,6 @@ p.mb-2.ms-3.me-4{
   --bs-border-color: #547B8C !important;
 }
  
-.h6, h6 {
-  font-size: 1.4rem !important;
-  color: #22333B;
-  font-family: "Lato", sans-serif !important;
-    font-weight: 700 !important;
-    font-style: italic !important;
-}
-
 h4 {
   display: block;
   font-size: 0.5rem !important;
@@ -266,9 +258,23 @@ h4 {
 h2.lato-bold {
      font-size: 2.5vmax;
  }
- 
 
  
+a.pe-5 {
+  font-size: 1.4rem !important;
+  color: #22333B !important;
+  font-family: "Lato", sans-serif !important;
+    font-weight: 700 !important;
+    font-style: italic !important;
+  text-decoration: dashed;
+}
+
+a.pe-5:hover {
+  color: #43816F !important; 
+}
+
+
+
  /*footer*/
 
  footer{
