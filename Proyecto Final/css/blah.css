@@ -226,10 +226,6 @@ p.mb-2.ms-3.me-4{
   --bs-btn-active-border-color: #43816F !important;
 }
 
-.h4, h4 {
-  
-}
-
 h4 {
   display: block;
   font-size: 0.5rem !important;
@@ -243,7 +239,7 @@ h4 {
 
 
  
-@media (max-width: 700px){
+@media (max-width: 576px){
   .h6, h6 {
     font-size: 0.9rem !important;
     color: #22333B;
@@ -365,7 +361,7 @@ a.icon {
   font-weight: 400;
   margin: 0px 5px;
 }
-@media (max-width: 700px){
+@media (max-width: 576px){
   .footerNav ul{
       flex-direction: column;
   } 
