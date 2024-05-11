@@ -1,4 +1,4 @@
-
+/*nav*/
 .navbar {
   background-color: rgba(255, 255, 255, 0.95)
  }
@@ -48,11 +48,20 @@ a.nav-link{
     height: 0vmax; /* Adjust the thickness of the underline */
     background-color: #43816F;
   }
+
+  .navbar .navbar-nav .nav-link {
+    color: #22333B;
+    font-size: 1.56vmax;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0.4;
+  }
 }
  
 .navbar .navbar-nav .nav-link {
   color: #22333B;
-  font-size: 1.56vmax;
+  font-size: 1.4vmax;
   font-family: "Lato", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -69,6 +78,8 @@ a.nav-link{
 .navbar-logo-centered .navbar-nav .nav-link{
   padding: .5em 1em;
 }
+
+/*nav*/
 
 .lato-thin {
     font-family: "Lato", sans-serif;

@@ -48,11 +48,20 @@ a.nav-link{
     height: 0vmax; /* Adjust the thickness of the underline */
     background-color: #43816F;
   }
+
+  .navbar .navbar-nav .nav-link {
+    color: #22333B;
+    font-size: 1.56vmax;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0.4;
+  }
 }
  
 .navbar .navbar-nav .nav-link {
   color: #22333B;
-  font-size: 1.56vmax;
+  font-size: 1.4vmax;
   font-family: "Lato", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -69,6 +78,7 @@ a.nav-link{
 .navbar-logo-centered .navbar-nav .nav-link{
   padding: .5em 1em;
 }
+
 /*nav*/
 
 p.p-0.m-0{
@@ -213,19 +223,6 @@ p.mb-2.ms-3.me-4{
     font-style: italic !important;
 }
 
-.btn-secondary {
-  --bs-btn-color: #fff;
-  --bs-btn-bg: #547B8C !important;
-  --bs-btn-border-color: #547B8C !important;
-  --bs-btn-hover-color: #547B8C !important;
-  --bs-btn-hover-bg:  #fff !important;
-  --bs-btn-hover-border-color:  #547B8C !important;
-  --bs-btn-focus-shadow-rgb: 130, 138, 145;
-  --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #43816F !important;
-  --bs-btn-active-border-color: #43816F !important;
-}
-
 h4 {
   display: block;
   font-size: 0.5rem !important;
@@ -236,7 +233,6 @@ h4 {
   font-weight: bold;
   unicode-bidi: isolate;
 }
-
 
  
 @media (max-width: 576px){
@@ -271,17 +267,8 @@ h2.lato-bold {
      font-size: 2.5vmax;
  }
  
- .flip-card {
-   background-color: transparent;
-   min-width: 28vmin;
-   min-height:12vmin;
-   perspective: 1000px;
- }
- 
- .card {
-   border: 0px !important;
- }
 
+ 
  /*footer*/
 
  footer{

@@ -48,6 +48,15 @@ a.nav-link{
     height: 0vmax; /* Adjust the thickness of the underline */
     background-color: #43816F;
   }
+
+  .navbar .navbar-nav .nav-link {
+    color: #22333B;
+    font-size: 1.56vmax;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0.4;
+  }
 }
  
 .navbar .navbar-nav .nav-link {
@@ -56,6 +65,7 @@ a.nav-link{
   font-family: "Lato", sans-serif;
   font-weight: 400;
   font-style: normal;
+  padding: 0.4;
 }
 
 
