@@ -52,10 +52,11 @@ a.nav-link{
  
 .navbar .navbar-nav .nav-link {
   color: #22333B;
-  font-size: 1.4vmax;
+  font-size: 1.56vmax;
   font-family: "Lato", sans-serif;
   font-weight: 400;
   font-style: normal;
+  padding: 0.4;
 }
 
 
@@ -139,7 +140,7 @@ a.nav-link{
 }
 
 p{
-    font-size: 1.2vmax;
+    font-size: 1.34vmax;
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -353,6 +354,9 @@ i{
   }
 }     
 
+
+
+  
 /*footer*/
 
 footer{
@@ -424,7 +428,6 @@ a.icon {
 }
 .footerBottom p{
   color: #22333B;
-  font-size: 1.8vmax;
 }
 .designer{
   opacity: 0.7;
