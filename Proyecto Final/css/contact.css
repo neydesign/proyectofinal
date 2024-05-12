@@ -135,6 +135,13 @@
  i{
     font-size: 3vmax;
  }
+
+ a.icon {
+    color: #22333B !important;
+    text-decoration: none !important;
+    padding-right: 1.5vmin !important;
+    padding-left: 1.5vmin !important;
+  }
  
 
  
