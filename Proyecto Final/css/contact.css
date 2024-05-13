@@ -118,8 +118,8 @@
    font-size: 1.3vmax;
    color: #43816F;
    font-family: "Lato", sans-serif;
-     font-weight: 700;
-     font-style: italic;
+    font-weight: 700;
+  font-style: italic;
  }
  
  .border {
@@ -142,31 +142,116 @@
     padding-right: 1.5vmin !important;
     padding-left: 1.5vmin !important;
   }
- 
 
- 
-  @media (max-width: 1400px) {
-    #pmobi{
-        display: none; /* Hide mobile navigation on desktop */
-      }
-    
-     #pdes {
-        display: block; /* Show desktop navigation on desktop */
-      }
+  .row.single-form {
+    box-shadow:  0 8px 12px -7px #667B80;
   }
 
-  @media (max-width: 576px) {
-    #pdes{
-        display: none; /* Hide mobile navigation on desktop */
-      }
-    
-     #pmobi {
-        display: block; /* Show desktop navigation on desktop */
-      }
-
+  .left {
+    background: #FFB202;
+    color: #22333B;
+    padding: 200px 98px;
+  }
+  .left h2 {
+    color: #22333B;
+    font-size: 3.5vmax;
+    font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  }
+  .single-form{
+      background: #fff;
+  }
+  .right {
+    padding: 70px 100px;
+    position: relative;
   }
 
+  .form-control {
+    border: 1.5px solid #22333ba8 !important;
+  }
 
+  .right button {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    background: #547B8C;
+    width: 150px;
+    padding: 15px 0;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+
+  .right button:hover{
+      background-color: #43816F;
+      color: #fff;
+  }
+
+  .form-label{
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #22333B;
+  }
+
+  .col-sm-12.col-lg-6 {
+    border-radius: 20px 0 0 20px;
+    background-color: transparent; /* Example background color */
+  }
+  
+  .left{
+    border-radius: 20px 0 0 20px;
+  }
+
+  .row.single-form.g-0 {
+    /* CSS properties */
+    border-radius: 20px 0 0 20px;
+  }
+  
+  /*responsive*/
+  
+  
+  @media (max-width:767px){
+      .left {
+        padding: 20px 15px;
+    text-align: center;
+  }
+
+  .left h2 {
+    font-size: 25px;
+  }
+  .right {
+    padding: 25px;
+  }
+      .right button {
+    width: 150px;
+    padding: 12px 0;
+  }
+
+  .col-sm-12.col-lg-6 {
+    border-radius: 15px 15px 0 0 ;
+    background-color: transparent; /* Example background color */
+  }
+  
+  .left{
+    border-radius: 15px 15px 0 0 ;
+  }
+
+  .row.single-form.g-0 {
+    /* CSS properties */
+    border-radius: 15px 15px 0 0 ;
+  }
+      
+  }
+
+  
+  
+ 
  
   /*footer*/
 
@@ -247,6 +332,8 @@ footer{
     font-weight: 400;
     margin: 0px 5px;
   }
+
+
   @media (max-width: 700px){
     .footerNav ul{
         flex-direction: column;
