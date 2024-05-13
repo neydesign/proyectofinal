@@ -365,6 +365,26 @@ i{
   }
 }     
 
+@media (max-width: 1400px) {
+  #pmobi{
+      display: none; /* Hide mobile navigation on desktop */
+    }
+  
+   #pdes {
+      display: block; /* Show desktop navigation on desktop */
+    }
+}
+
+@media (max-width: 576px) {
+  #pdes{
+      display: none; /* Hide mobile navigation on desktop */
+    }
+  
+   #pmobi {
+      display: block; /* Show desktop navigation on desktop */
+    }
+
+}
 
 
   
