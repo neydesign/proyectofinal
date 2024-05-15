@@ -194,12 +194,12 @@
 
 }
 
-a {
+a.btm {
   color: #22333B !important;
   text-decoration: none !important;
 }
 
-a:hover {
+a.btm:hover {
   color: #FDFEFD !important;
   text-decoration: none !important;
 }
